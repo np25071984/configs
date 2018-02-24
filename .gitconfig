@@ -1,0 +1,7 @@
+[user]
+    email = np25071984@gmail.com
+    name = GHopper
+
+[core]
+    editor = vim
+    autocrlf = false
