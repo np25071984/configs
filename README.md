@@ -21,6 +21,20 @@ Open a file / unfold directory by double clicking.
 $ code --list-extensions
 Anjali.clipboard-history
 felixfbecker.php-debug
+felixfbecker.php-intellisense
 ```
 
-
+### xDebug configuration
+```json
+"configurations": [
+    {
+        "name": "Listen for XDebug",
+        "type": "php",
+        "request": "launch",
+        "port": 9000,
+        "pathMappings": {
+            "server_path": "${workspaceRoot}"
+        }
+    }
+]
+```
