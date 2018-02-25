@@ -1,5 +1,7 @@
 {
     "workbench.startupEditor": "newUntitledFile",
     "emmet.showExpandedAbbreviation": "never",
-    "workbench.list.openMode": "doubleClick"
+    "workbench.list.openMode": "doubleClick",
+    "window.zoomLevel": -1,
+    "files.trimTrailingWhitespace": true
 }

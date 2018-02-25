@@ -20,6 +20,7 @@ Open a file / unfold directory by double clicking.
 ```
 $ code --list-extensions
 Anjali.clipboard-history
+alefragnani.Bookmarks
 felixfbecker.php-debug
 felixfbecker.php-intellisense
 ```
