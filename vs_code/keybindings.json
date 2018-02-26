@@ -1,4 +1,3 @@
-// Place your key bindings in this file to overwrite the defaults
 [
     {
         "key": "ctrl+tab",
@@ -15,5 +14,15 @@
     {
         "key": "ctrl+pageup",
         "command": "-workbench.action.previousEditor"
-    }
+    },
+    {
+        "key": "ctrl+shift+u",
+        "command": "editor.action.transformToUppercase",
+        "when": "editorTextFocus"
+     },
+     {
+        "key": "ctrl+shift+l",
+        "command": "editor.action.transformToLowercase",
+        "when": "editorTextFocus"
+     }
 ]
