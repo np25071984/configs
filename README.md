@@ -23,6 +23,9 @@ Anjali.clipboard-history
 alefragnani.Bookmarks
 felixfbecker.php-debug
 felixfbecker.php-intellisense
+slevesque.vscode-multiclip
+vscodevim.vim
+whatwedo.twig
 ```
 
 ### xDebug configuration
