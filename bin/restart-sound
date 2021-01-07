@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# fixes xiaomi mi pro laptop sound bug https://askubuntu.com/questions/1234807/no-sound-after-sleep-ubuntu-20-04/1294354#1294354
+# /usr/lib/systemd/system-sleep/restart-sound
+
+device_id=`lspci | grep "Audio device" | cut -d" " -f1` #lspci | grep 'Audio device' | cut -d" " -f1
+device_dir=`ls /sys/bus/pci/devices/ | grep $device_id`
+
+case $1/$2 in
+	pre/*)
+		;;
+	post/*)
+		echo 1 > /sys/bus/pci/devices/$device_dir/remove
+		echo 1 > /sys/bus/pci/rescan
+                ;;
+esac
+
+exit 0
+
